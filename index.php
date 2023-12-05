@@ -105,9 +105,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Accounting/Finance <span>(305)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Accounting/Finance <span>(305)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -115,9 +115,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Production/Operation <span>(95)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Production/Operation <span>(95)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -125,9 +125,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Education/Training <span>(212)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Education/Training <span>(212)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -135,9 +135,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Design/Creative <span>(93)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Design/Creative <span>(93)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -145,9 +145,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Health & Fitness <span>(4)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Health & Fitness <span>(4)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -155,9 +155,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Research/Consultancy <span>(34)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Research/Consultancy <span>(34)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -165,9 +165,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Engineer/Architects <span>(376)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Engineer/Architects <span>(376)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -175,9 +175,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Telecommunication <span>(450)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Telecommunication <span>(450)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -185,9 +185,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Data Entry/Operator <span>(25)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Data Entry/Operator <span>(25)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -195,9 +195,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Production/Operation <span>(95)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Production/Operation <span>(95)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -205,9 +205,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Marketing/Sales <span>(666)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Marketing/Sales <span>(666)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -215,9 +215,9 @@
             <!--== Start Job Category Item ==-->
             <div class="job-category-item">
               <div class="content">
-                <h3 class="title"><a href="job-details.html">Security/Support Service <span>(62)</span></a></h3>
+                <h3 class="title"><a href="job-details.php">Security/Support Service <span>(62)</span></a></h3>
               </div>
-              <a class="overlay-link" href="job-details.html"></a>
+              <a class="overlay-link" href="job-details.php"></a>
             </div>
             <!--== End Job Category Item ==-->
           </div>
@@ -245,15 +245,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/1.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/1.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Darkento Ltd.</a></h4>
+                  <h4 class="name"><a href="company-details.php">Darkento Ltd.</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Front-end Developer</a></h3>
+                <h3 class="title"><a href="job-details.php">Front-end Developer</a></h3>
                 <h5 class="work-type">Full-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -262,7 +262,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -272,15 +272,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/2.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/2.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Inspire Fitness Co.</a></h4>
+                  <h4 class="name"><a href="company-details.php">Inspire Fitness Co.</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Senior UI Designer</a></h3>
+                <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -289,7 +289,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -299,15 +299,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/3.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/3.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Cogent Data</a></h4>
+                  <h4 class="name"><a href="company-details.php">Cogent Data</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Graphic Designer</a></h3>
+                <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -316,7 +316,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -326,15 +326,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/4.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/4.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Obelus Concepts</a></h4>
+                  <h4 class="name"><a href="company-details.php">Obelus Concepts</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">UX Researcher</a></h3>
+                <h3 class="title"><a href="job-details.php">UX Researcher</a></h3>
                 <h5 class="work-type">Full-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -343,7 +343,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -353,15 +353,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/5.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/5.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Sanguine Skincare</a></h4>
+                  <h4 class="name"><a href="company-details.php">Sanguine Skincare</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Android App Developer</a></h3>
+                <h3 class="title"><a href="job-details.php">Android App Developer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -370,7 +370,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -380,15 +380,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/6.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/6.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Flux Water Gear</a></h4>
+                  <h4 class="name"><a href="company-details.php">Flux Water Gear</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Product Designer</a></h3>
+                <h3 class="title"><a href="job-details.php">Product Designer</a></h3>
                 <h5 class="work-type">Full-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -397,7 +397,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -407,15 +407,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/7.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/7.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Darkento Ltd.</a></h4>
+                  <h4 class="name"><a href="company-details.php">Darkento Ltd.</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Front-end Developer</a></h3>
+                <h3 class="title"><a href="job-details.php">Front-end Developer</a></h3>
                 <h5 class="work-type">Full-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -424,7 +424,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -434,15 +434,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/8.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/8.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Inspire Fitness Co.</a></h4>
+                  <h4 class="name"><a href="company-details.php">Inspire Fitness Co.</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Senior UI Designer</a></h3>
+                <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -451,7 +451,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -461,15 +461,15 @@
             <div class="recent-job-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.html"><img src="assets/img/companies/9.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/9.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
-                  <h4 class="name"><a href="company-details.html">Cogent Data</a></h4>
+                  <h4 class="name"><a href="company-details.php">Cogent Data</a></h4>
                   <p class="address">New York, USA</p>
                 </div>
               </div>
               <div class="main-content">
-                <h3 class="title"><a href="job-details.html">Graphic Designer</a></h3>
+                <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Part-time</h5>
                 <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
               </div>
@@ -478,7 +478,7 @@
                   <h4>$5000</h4>
                   <p>/monthly</p>
                 </div>
-                <a class="btn-theme btn-sm" href="job-details.html">Apply Now</a>
+                <a class="btn-theme btn-sm" href="job-details.php">Apply Now</a>
               </div>
             </div>
             <!--== End Recent Job Item ==-->
@@ -603,7 +603,7 @@
                 <a class="btn-divider" data-aos="fade-down" href="page-not-found.html">
                   <img src="assets/img/photos/google-play.png" width="201" height="63" class="icon" alt="Image-HasTech">
                 </a>
-                <a class="btn-divider btn-divider-app-store" data-aos="fade-down" href="page-not-found.html">
+                <a class="btn-divider btn-divider-app-store" data-aos="fade-down" href="page-not-found.php">
                   <img src="assets/img/photos/mac-os.png" width="201" height="63" class="icon" alt="Image-HasTech">
                 </a>
               </div>
@@ -634,12 +634,12 @@
             <!--== Start Team Item ==-->
             <div class="team-item">
               <div class="thumb">
-                <a href="candidate-details.html">
+                <a href="candidate-details.php">
                   <img src="assets/img/team/1.png" width="160" height="160" alt="Image-HasTech">
                 </a>
               </div>
               <div class="content">
-                <h4 class="title"><a href="candidate-details.html">Lauran Benitez</a></h4>
+                <h4 class="title"><a href="candidate-details.php">Lauran Benitez</a></h4>
                 <h5 class="sub-title">Web Designer</h5>
                 <div class="rating-box">
                   <i class="icofont-star"></i>
@@ -649,7 +649,7 @@
                   <i class="icofont-star"></i>
                 </div>
                 <p class="desc">CSS3, HTML5, Javascript Bootstrap, Jquery</p>
-                <a class="btn-theme btn-white btn-sm" href="candidate-details.html">View Profile</a>
+                <a class="btn-theme btn-white btn-sm" href="candidate-details.php">View Profile</a>
               </div>
               <div class="bookmark-icon"><img src="assets/img/icons/bookmark1.png" alt="Image-HasTech"></div>
               <div class="bookmark-icon-hover"><img src="assets/img/icons/bookmark2.png" alt="Image-HasTech"></div>
@@ -660,12 +660,12 @@
             <!--== Start Team Item ==-->
             <div class="team-item">
               <div class="thumb">
-                <a href="candidate-details.html">
-                  <img src="assets/img/team/2.jpg" width="160" height="160" alt="Image-HasTech">
+                <a href="candidate-details.php">
+                  <img src="assets/img/team/2.png" width="160" height="160" alt="Image-HasTech">
                 </a>
               </div>
               <div class="content">
-                <h4 class="title"><a href="candidate-details.html">Valentine Anders</a></h4>
+                <h4 class="title"><a href="candidate-details.php">Valentine Anders</a></h4>
                 <h5 class="sub-title">UI/UX Designer</h5>
                 <div class="rating-box">
                   <i class="icofont-star"></i>
@@ -675,7 +675,7 @@
                   <i class="icofont-star"></i>
                 </div>
                 <p class="desc">CSS3, HTML5, Javascript Bootstrap, Jquery</p>
-                <a class="btn-theme btn-white btn-sm" href="candidate-details.html">View Profile</a>
+                <a class="btn-theme btn-white btn-sm" href="candidate-details.php">View Profile</a>
               </div>
               <div class="bookmark-icon"><img src="assets/img/icons/bookmark1.png" alt="Image-HasTech"></div>
               <div class="bookmark-icon-hover"><img src="assets/img/icons/bookmark2.png" alt="Image-HasTech"></div>
@@ -686,12 +686,12 @@
             <!--== Start Team Item ==-->
             <div class="team-item">
               <div class="thumb">
-                <a href="candidate-details.html">
-                  <img src="assets/img/team/3.jpg" width="160" height="160" alt="Image-HasTech">
+                <a href="candidate-details.php">
+                  <img src="assets/img/team/3.png" width="160" height="160" alt="Image-HasTech">
                 </a>
               </div>
               <div class="content">
-                <h4 class="title"><a href="candidate-details.html">Shakia Aguilera</a></h4>
+                <h4 class="title"><a href="candidate-details.php">Shakia Aguilera</a></h4>
                 <h5 class="sub-title">Web Designer</h5>
                 <div class="rating-box">
                   <i class="icofont-star"></i>
@@ -701,7 +701,7 @@
                   <i class="icofont-star"></i>
                 </div>
                 <p class="desc">CSS3, HTML5, Javascript Bootstrap, Jquery</p>
-                <a class="btn-theme btn-white btn-sm" href="candidate-details.html">View Profile</a>
+                <a class="btn-theme btn-white btn-sm" href="candidate-details.php">View Profile</a>
               </div>
               <div class="bookmark-icon"><img src="assets/img/icons/bookmark1.png" alt="Image-HasTech"></div>
               <div class="bookmark-icon-hover"><img src="assets/img/icons/bookmark2.png" alt="Image-HasTech"></div>
@@ -712,12 +712,12 @@
             <!--== Start Team Item ==-->
             <div class="team-item">
               <div class="thumb">
-                <a href="candidate-details.html">
-                  <img src="assets/img/team/4.jpg" width="160" height="160" alt="Image-HasTech">
+                <a href="candidate-details.php">
+                  <img src="assets/img/team/4.png" width="160" height="160" alt="Image-HasTech">
                 </a>
               </div>
               <div class="content">
-                <h4 class="title"><a href="candidate-details.html">Assunta Manson</a></h4>
+                <h4 class="title"><a href="candidate-details.php">Assunta Manson</a></h4>
                 <h5 class="sub-title">App. Developer</h5>
                 <div class="rating-box">
                   <i class="icofont-star"></i>
@@ -727,7 +727,7 @@
                   <i class="icofont-star"></i>
                 </div>
                 <p class="desc">CSS3, HTML5, Javascript Bootstrap, Jquery</p>
-                <a class="btn-theme btn-white btn-sm" href="candidate-details.html">View Profile</a>
+                <a class="btn-theme btn-white btn-sm" href="candidate-details.php">View Profile</a>
               </div>
               <div class="bookmark-icon"><img src="assets/img/icons/bookmark1.png" alt="Image-HasTech"></div>
               <div class="bookmark-icon-hover"><img src="assets/img/icons/bookmark2.png" alt="Image-HasTech"></div>
@@ -837,7 +837,7 @@
                     <div class="testi-inner-content">
                       <div class="testi-author">
                         <div class="testi-thumb">
-                          <img src="assets/img/testimonial/1.jpg" width="75" height="75" alt="Image-HasTech">
+                          <img src="assets/img/testimonial/1.png" width="75" height="75" alt="Image-HasTech">
                         </div>
                         <div class="testi-info">
                           <h4 class="name">Roselia Hamets</h4>
@@ -865,7 +865,7 @@
                     <div class="testi-inner-content">
                       <div class="testi-author">
                         <div class="testi-thumb">
-                          <img src="assets/img/testimonial/2.jpg" width="75" height="75" alt="Image-HasTech">
+                          <img src="assets/img/testimonial/2.png" width="75" height="75" alt="Image-HasTech">
                         </div>
                         <div class="testi-info">
                           <h4 class="name">Assunta Manson</h4>
@@ -893,7 +893,7 @@
                     <div class="testi-inner-content">
                       <div class="testi-author">
                         <div class="testi-thumb">
-                          <img src="assets/img/testimonial/3.jpg" width="75" height="75" alt="Image-HasTech">
+                          <img src="assets/img/testimonial/3.png" width="75" height="75" alt="Image-HasTech">
                         </div>
                         <div class="testi-info">
                           <h4 class="name">Amira Shepard</h4>
@@ -921,7 +921,7 @@
                     <div class="testi-inner-content">
                       <div class="testi-author">
                         <div class="testi-thumb">
-                          <img src="assets/img/testimonial/4.jpg" width="75" height="75" alt="Image-HasTech">
+                          <img src="assets/img/testimonial/4.png" width="75" height="75" alt="Image-HasTech">
                         </div>
                         <div class="testi-info">
                           <h4 class="name">Joshua George</h4>
@@ -949,7 +949,7 @@
                     <div class="testi-inner-content">
                       <div class="testi-author">
                         <div class="testi-thumb">
-                          <img src="assets/img/testimonial/5.jpg" width="75" height="75" alt="Image-HasTech">
+                          <img src="assets/img/testimonial/5.png" width="75" height="75" alt="Image-HasTech">
                         </div>
                         <div class="testi-info">
                           <h4 class="name">Rosie Patton</h4>
@@ -1000,11 +1000,11 @@
             <!--== Start Blog Post Item ==-->
             <div class="post-item">
               <div class="thumb">
-                <a href="blog-details.html"><img src="assets/img/blog/1.jpg" alt="Image" width="370" height="270"></a>
+                <a href="blog-details.php"><img src="assets/img/blog/1.png" alt="Image" width="370" height="270"></a>
               </div>
               <div class="content">
-                <div class="author">By <a href="blog.html">Walter Houston</a></div>
-                <h4 class="title"><a href="blog-details.html">It long established fact that reader will distracted the readable.</a></h4>
+                <div class="author">By <a href="blog.php">Walter Houston</a></div>
+                <h4 class="title"><a href="blog-details.php">It long established fact that reader will distracted the readable.</a></h4>
                 <div class="meta">
                   <span class="post-date">03 April, 2022</span>
                   <span class="dots"></span>
@@ -1018,7 +1018,7 @@
             <!--== Start Blog Post Item ==-->
             <div class="post-item">
               <div class="thumb mb--0">
-                <a href="blog-details.html"><img src="assets/img/blog/h1.jpg" alt="Image" width="370" height="440"></a>
+                <a href="blog-details.php"><img src="assets/img/blog/h1.png" alt="Image" width="370" height="440"></a>
               </div>
             </div>
             <!--== End Blog Post Item ==-->
@@ -1028,8 +1028,8 @@
               <!--== Start Blog Post Item ==-->
               <div class="post-item">
                 <div class="content">
-                  <div class="author">By <a href="blog.html">Walter Houston</a></div>
-                  <h4 class="title"><a href="blog-details.html">Established fact and readeren will distracted the readable content.</a></h4>
+                  <div class="author">By <a href="blog.php">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.php">Established fact and readeren will distracted the readable content.</a></h4>
                   <div class="meta">
                     <span class="post-date">03 April, 2022</span>
                     <span class="dots"></span>
@@ -1042,8 +1042,8 @@
               <!--== Start Blog Post Item ==-->
               <div class="post-item">
                 <div class="content">
-                  <div class="author">By <a href="blog.html">Walter Houston</a></div>
-                  <h4 class="title"><a href="blog-details.html">With WooLentor's drag-and drop interface for creating...</a></h4>
+                  <div class="author">By <a href="blog.php">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.php">With WooLentor's drag-and drop interface for creating...</a></h4>
                   <div class="meta">
                     <span class="post-date">03 April, 2022</span>
                     <span class="dots"></span>

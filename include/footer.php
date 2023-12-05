@@ -29,7 +29,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="widget-item widget-about">
               <div class="widget-logo-area">
-                <a href="index.html">
+                <a href="index.php">
                   <img class="logo-main" src="assets/img/logo-light-theme.png" alt="Logo" />
                 </a>
               </div>
@@ -52,9 +52,9 @@
                       <div class="widget-menu-wrap">
                         <ul class="nav-menu">
                           <li><a href="about-us.php">About Us</a></li>
-                          <li><a href="about-us.html">Why Extobot</a></li>
-                          <li><a href="contact.html">Contact With Us</a></li>
-                          <li><a href="contact.html">Our Partners</a></li>
+                          <li><a href="about-us.php">Why Extobot</a></li>
+                          <li><a href="contact.php">Contact With Us</a></li>
+                          <li><a href="contact.php">Our Partners</a></li>
                         </ul>
                       </div>
                     </div>
@@ -69,10 +69,10 @@
                     <div class="collapse-body">
                       <div class="widget-menu-wrap">
                         <ul class="nav-menu">
-                          <li><a href="account-login.html">Quick Links</a></li>
-                          <li><a href="job.html">Job Packages</a></li>
-                          <li><a href="job.html">Post New Job</a></li>
-                          <li><a href="job.html">Jobs Listing</a></li>
+                          <li><a href="account-login.php">Quick Links</a></li>
+                          <li><a href="job.php">Job Packages</a></li>
+                          <li><a href="job.php">Post New Job</a></li>
+                          <li><a href="job.php">Jobs Listing</a></li>
                         </ul>
                       </div>
                     </div>
@@ -87,10 +87,10 @@
                     <div class="collapse-body">
                       <div class="widget-menu-wrap">
                         <ul class="nav-menu">
-                          <li><a href="account-login.html">Affiliate</a></li>
-                          <li><a href="blog.html">Blog</a></li>
-                          <li><a href="account-login.html">Help & Support</a></li>
-                          <li><a href="job.html">Careers</a></li>
+                          <li><a href="account-login.php">Affiliate</a></li>
+                          <li><a href="blog.php">Blog</a></li>
+                          <li><a href="account-login.php">Help & Support</a></li>
+                          <li><a href="job.php">Careers</a></li>
                         </ul>
                       </div>
                     </div>
@@ -105,10 +105,10 @@
                     <div class="collapse-body">
                       <div class="widget-menu-wrap">
                         <ul class="nav-menu">
-                          <li><a href="account-login.html">Star a Trial</a></li>
-                          <li><a href="about-us.html">How It Works</a></li>
-                          <li><a href="account-login.html">Features</a></li>
-                          <li><a href="about-us.html">Price & Planing</a></li>
+                          <li><a href="account-login.php">Star a Trial</a></li>
+                          <li><a href="about-us.php">How It Works</a></li>
+                          <li><a href="account-login.php">Features</a></li>
+                          <li><a href="about-us.php">Price & Planing</a></li>
                         </ul>
                       </div>
                     </div>
@@ -151,37 +151,37 @@
       <!-- Mobile Menu Start -->
       <div class="mobile-menu-items">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="#">Find Jobs</a>
             <ul class="sub-menu">
-              <li><a href="job.html">Jobs</a></li>
-              <li><a href="job-details.html">Job Details</a></li>
+              <li><a href="job.php">Jobs</a></li>
+              <li><a href="job-details.php">Job Details</a></li>
             </ul>
           </li>
-          <li><a href="employers-details.html">Employers Details</a></li>
+          <li><a href="employers-details.php">Employers Details</a></li>
           <li><a href="#">Candidates</a>
             <ul class="sub-menu">
-              <li><a href="candidate.html">Candidates</a></li>
-              <li><a href="candidate-details.html">Candidate Details</a></li>
+              <li><a href="candidate.php">Candidates</a></li>
+              <li><a href="candidate-details.php">Candidate Details</a></li>
             </ul>
           </li>
           <li><a href="#">Blog</a>
             <ul class="sub-menu">
-              <li><a href="blog-grid.html">Blog Grid</a></li>
-              <li><a href="blog.html">Blog Left Sidebar</a></li>
-              <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
+              <li><a href="blog-grid.php">Blog Grid</a></li>
+              <li><a href="blog.php">Blog Left Sidebar</a></li>
+              <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+              <li><a href="blog-details.php">Blog Details</a></li>
             </ul>
           </li>
           <li><a href="#">Pages</a>
             <ul class="sub-menu">
               <li><a href="about-us.php">About us</a></li>
-              <li><a href="login.html">Login</a></li>
-              <li><a href="registration.html">Registration</a></li>
-              <li><a href="page-not-found.html">Page Not Found</a></li>
+              <li><a href="login.php">Login</a></li>
+              <li><a href="registration.php">Registration</a></li>
+              <li><a href="page-not-found.php">Page Not Found</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <!-- Mobile Menu End -->
