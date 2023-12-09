@@ -37,6 +37,15 @@ body {
     font-size: 15px;
   }
 }
+/* 
+.success{
+  background-color: #9fd2a1;
+  padding: 5px 10px;
+  color: #326b07;
+  border-radius: 3px;
+  font-synthesis: 14px;
+  margin-top: 5px;
+} */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

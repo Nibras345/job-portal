@@ -34,16 +34,52 @@
                 <div class="form-title">
                   <h4 class="title">Sign In</h4>
                 </div>
+
+                <?php 
+                
+                  // Connect to the database
+                  $conn = mysqli_connect('localhost', 'root', '', 'login_register');
+                  
+                  // Check connection
+                  if (!$conn) {
+                      die('Connection failed: ' . mysqli_connect_error());
+                  }
+                  if(isset($_POST['login'])) { 
+                  
+                  // Get user credentials from the form
+                  $email = $_POST['email'];
+                  $password = $_POST['Password'];
+                  
+                  // Prepare and execute the query to check user credentials
+                  $sql = "SELECT * FROM users WHERE name = '$email' AND password = '$password'";
+                  $result = mysqli_query($conn, $sql);
+                  
+                  // Check if the user exists and credentials are correct
+                  if (mysqli_num_rows($result) > 0) {
+                      // User login successful
+                      session_start();
+                      $_SESSION['Name'] = $username;
+                      header('Location: loginhome.php');
+                  } else {
+                      // Invalid credentials
+                      echo 'Invalid username or password';
+                  }
+                  }
+                  // Close database connection
+                  mysqli_close($conn);
+                  
+                ?>
+
                 <form action="#">
                   <div class="row">
                     <div class="col-12">
                       <div class="form-group">
-                        <input class="form-control" type="email" placeholder="Email">
+                        <input class="form-control" name="Email" type="email" placeholder="Email">
                       </div>
                     </div>
                     <div class="col-12">
                       <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Password">
+                        <input class="form-control" name="Password" type="password" placeholder="Password">
                       </div>
                     </div>
                     <div class="col-12">
@@ -61,7 +97,7 @@
                     </div>
                     <div class="col-12">
                       <div class="form-group">
-                        <button type="button" class="btn-theme">Sign In</button>
+                        <button type="submit" name="login" class="btn-theme">Sign In</button>
                       </div>
                     </div>
                   </div>

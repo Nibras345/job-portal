@@ -46,6 +46,7 @@ include_once("include/navbar.php");
                 <div class="tab-pane fade show active" id="candidate" role="tabpanel" aria-labelledby="candidate-tab">
 
                   <?php
+
                   include_once("backend/database.php");
                   if (isset($_POST["Register"])) {
                     $name = $_POST["Name"];
@@ -79,10 +80,9 @@ include_once("include/navbar.php");
                       }
                     }
                   }
-
-
-
                   ?>
+
+
                   <form action="registration.php" method="post">
                     <div class="row">
                       <div class="col-12">
@@ -119,21 +119,58 @@ include_once("include/navbar.php");
                   </form>
                 </div>
                 <div class="tab-pane fade" id="employer" role="tabpanel" aria-labelledby="employer-tab">
-                  <form action="#">
+
+
+                <?php 
+                  include_once("backend/database.php");
+
+                  if (isset($_POST["employ"])) {
+                    $name = $_POST["Name"];
+                    $email = $_POST["Email"];
+                    $password = $_POST["Password"];
+
+                    $passwordhash = password_hash($password, PASSWORD_DEFAULT);
+                    $errors = array();
+
+                    if (empty($name) or empty($email) or empty($passwordhash)) {
+                      array_push($errors, "All fields are required");
+                    }
+                    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                      array_push($errors, "Email is not valid");
+                    }
+                    if (strlen($password) <8) {
+                      array_push($errors, "Password must be al least 8 characters long");
+                    }
+                    if (count($errors) >0) {
+                      foreach ($errors as $error) {
+                        echo "<div class='alert alert-danger'>$error</div>";
+                    }
+                  }else {
+                    $sql = "INSERT INTO `employers`(`Name`, `Email`, `Password`) VALUES ('$name','$email','$password')";
+                    $result = mysqli_query($conn, $sql);
+                    if ($result) {
+                      echo "Sent";
+                    }
+                  }
+                }
+                ?>
+
+
+                  <form action="registration.php" method="post">
                     <div class="row">
                       <div class="col-12">
                         <div class="form-group">
-                          <input class="form-control" type="email" placeholder="Email">
+                          <input class="form-control" name="Name" type="Name" placeholder="Name">
                         </div>
                       </div>
                       <div class="col-12">
                         <div class="form-group">
-                          <input class="form-control" type="password" placeholder="Password">
+                          <input class="form-control" name="Email" type="Email" placeholder="Email">
                         </div>
                       </div>
                       <div class="col-12">
                         <div class="form-group">
-                          <input class="form-control" type="password" placeholder="Confirm Password">
+                          <input class="form-control" name="Password" type="password" placeholder="Password">
                         </div>
                       </div>
                       <div class="col-12">
@@ -148,7 +185,7 @@ include_once("include/navbar.php");
                       </div>
                       <div class="col-12">
                         <div class="form-group">
-                          <button type="button" class="btn-theme">Register Now</button>
+                          <button type="submit" name="employ" class="btn-theme">Register Now</button>
                         </div>
                       </div>
                     </div>

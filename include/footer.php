@@ -1,6 +1,9 @@
  <!--== Start Footer Area Wrapper ==-->
  <footer class="footer-area">
     <!--== Start Footer Top ==-->
+
+    <!-- scbscribe start -->
+
     <div class="footer-top">
       <div class="container pt--0 pb--0">
         <div class="row">
@@ -11,8 +14,8 @@
           </div>
           <div class="col-lg-7">
             <div class="footer-newsletter-form">
-              <form action="#">
-                <input type="email" placeholder="Enter your email">
+              <form action="backend/subscribe.php" method="post">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
                 <button type="submit" class="btn-newsletter">Subscribe Now</button>
               </form>
             </div>
@@ -20,6 +23,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Subscribe End -->
+
     <!--== End Footer Top ==-->
 
     <!--== Start Footer Main ==-->

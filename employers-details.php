@@ -331,27 +331,26 @@
                   <h3 class="title">Contact Now</h3>
                 </div>
                 <div class="widget-contact-form">
-                  <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+                  <form id="contact-form" action="backend/send-email.php" method="POST">
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <input class="form-control" type="text" name="con_name" placeholder="Name:">
+                          <input class="form-control" type="text" name="name" placeholder="Name:" required>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <input class="form-control" type="email" name="con_email" placeholder="Email:">
+                          <input class="form-control" type="email" name="email" placeholder="Email:" required>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea class="form-control" name="con_message" placeholder="Message"></textarea>
+                          <textarea class="form-control" name="msg" placeholder="Message" required></textarea>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group mb--0">
-                          <button class="btn-theme d-block w-100" type="submit">Send Message</button>
-                        </div>
+                          <button class="btn-theme d-block w-100" type="submit" name="send" value="submit">Send Message</button>
                       </div>
                     </div>
                   </form>
