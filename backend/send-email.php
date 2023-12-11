@@ -5,8 +5,8 @@ if(isset($_POST['send'])){
 	$email=$_POST['email'];
 	$msg=$_POST['msg'];
 	
-	echo''.$name.''.$email.''.$msg.'';
-	// echo smtp_mailer($name,$email,$msg);
+	// echo''.$name.''.$email.''.$msg.'';
+	echo smtp_mailer($name,$email,$msg);
 }
 
 
@@ -21,7 +21,7 @@ function smtp_mailer($name,$to, $msg){
 	$mail->CharSet = 'UTF-8';
 	//$mail->SMTPDebug = 2; 
 	$mail->Username = "mnibras345@gmail.com"; //username
-	$mail->Password = "yphn ggpz xydi pxep";
+	$mail->Password = "yphnggpzxydipxep";
 	$mail->SetFrom("mnibras345@gmail.com"); //username
 	$mail->Subject = $name;
 	$mail->Body =$msg;

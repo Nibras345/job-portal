@@ -72,7 +72,7 @@
             <!--== Start Contact Form ==-->
             <div class="contact-form">
               <h4 class="contact-form-title">Get in Touch</h4>
-              <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+              <form id="contact-form" action="backend/send-email.php" method="POST">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">

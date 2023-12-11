@@ -356,7 +356,7 @@
                   </form>
 
                   <!--== Message Notification ==-->
-                  <div class="form-message"></div>
+                  <!-- <div class="form-message"></div> -->
                 </div>
               </div>
             </div>
