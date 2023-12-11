@@ -1,11 +1,12 @@
 <?php
-include('smtp/PHPMailerAutoload.php');
+include('../smtp/PHPMailerAutoload.php');
 if(isset($_POST['send'])){
 	$name=$_POST['name'];
 	$email=$_POST['email'];
 	$msg=$_POST['msg'];
 	
-	echo smtp_mailer($name,$email,$msg);
+	echo''.$name.''.$email.''.$msg.'';
+	// echo smtp_mailer($name,$email,$msg);
 }
 
 
