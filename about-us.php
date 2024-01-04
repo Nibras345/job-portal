@@ -76,7 +76,7 @@
                     </ul>
                   </div>
                   <div class="member-join-btn">
-                    <a class="join-now-btn" href="job-details.html"><span>+</span> Join Now</a>
+                    <a class="join-now-btn" href="job-details.php"><span>+</span> Join Now</a>
                   </div>
                 </div>
               </div>

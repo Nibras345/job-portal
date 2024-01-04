@@ -47,39 +47,39 @@ include_once("include/navbar.php");
 
                   <?php
 
-                  include_once("backend/database.php");
-                  if (isset($_POST["Register"])) {
-                    $name = $_POST["Name"];
-                    $email = $_POST["Email"];
-                    $password = $_POST["Password"];
+                    include_once("backend/database.php");
+                    if (isset($_POST["Register"])) {
+                      $name = $_POST["Name"];
+                      $email = $_POST["Email"];
+                      $password = $_POST["Password"];
 
 
 
-                    $passwordhash = password_hash($password, PASSWORD_DEFAULT);
-                    $errors = array();
+                      $passwordhash = password_hash($password, PASSWORD_DEFAULT);
+                      $errors = array();
 
-                    if (empty($name) or empty($email) or empty($passwordhash)) {
-                      array_push($errors, "All fields are required");
-                    }
-                    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                      array_push($errors, "Email is not Valid");
-                    }
-                    if (strlen($password) < 8) {
-                      array_push($errors, "password must be at least 8 characters long");
-                    }
-
-                    if (count($errors) > 0) {
-                      foreach ($errors as $error) {
-                        echo "<div class='alert alert-danger'>$error</div>";
+                      if (empty($name) or empty($email) or empty($passwordhash)) {
+                        array_push($errors, "All fields are required");
                       }
-                    } else {
-                      $sql = "INSERT INTO `users`(`Name`, `Email`, `Password`) VALUES ('$name','$email','$password')";
-                      $result = mysqli_query($conn, $sql);
-                      if ($result) {
-                        echo "OKASSSS";
+                      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        array_push($errors, "Email is not Valid");
+                      }
+                      if (strlen($password) < 8) {
+                        array_push($errors, "password must be at least 8 characters long");
+                      }
+
+                      if (count($errors) > 0) {
+                        foreach ($errors as $error) {
+                          echo "<div class='alert alert-danger'>$error</div>";
+                        }
+                      } else {
+                        $sql = "INSERT INTO `users`(`Name`, `Email`, `Password`) VALUES ('$name','$email','$password')";
+                        $result = mysqli_query($conn, $sql);
+                        if ($result) {
+                          echo "OKASSSS";
+                        }
                       }
                     }
-                  }
                   ?>
 
 

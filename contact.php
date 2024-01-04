@@ -37,7 +37,7 @@
                 <div class="info">
                   <h5 class="title">Call Us:</h5>
                   <p>
-                    <a href="tel://568975468">(00) 568 975 468</a><br>
+                    <a href="tel://568975468">(+92) 325 022 5825</a><br>
                     <a href="tel://+88465748937">+92 303 555 8563</a>
                   </p>
                 </div>
@@ -61,8 +61,8 @@
                 <div class="info">
                   <h5 class="title">Address:</h5>
                   <p>
-                    Sunset Beach, North <br>
-                    Carolina(NC), 28468
+                    BC Towr near GC Unversity<br>
+                    Faisalabad.
                   </p>
                 </div>
               </div>
@@ -72,31 +72,31 @@
             <!--== Start Contact Form ==-->
             <div class="contact-form">
               <h4 class="contact-form-title">Get in Touch</h4>
-              <form id="contact-form" action="backend/send-email.php" method="POST">
+              <form id="contact-form" action="backend/contact.php" method="POST">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input class="form-control" type="text" name="con_name" placeholder="Name:">
+                      <input class="form-control" type="text" name="name" placeholder="Name:">
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input class="form-control" type="email" name="con_email" placeholder="Email:">
+                      <input class="form-control" type="email" name="email" placeholder="Email:">
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input class="form-control" type="text" placeholder="Subject:">
+                      <input class="form-control" type="text" name="subject" placeholder="Subject:">
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" name="con_message" placeholder="Message"></textarea>
+                      <textarea class="form-control" name="message" placeholder="Message"></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group mb--0">
-                      <button class="btn-theme d-block w-100" type="submit">Send Message</button>
+                      <button class="btn-theme d-block w-100" type="submit" name="msg">Send Message</button>
                     </div>
                   </div>
                 </div>

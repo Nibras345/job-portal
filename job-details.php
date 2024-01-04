@@ -45,7 +45,8 @@
               </div>
               <div class="job-details-price">
                 <h4 class="title">$5000 <span>/monthly</span></h4>
-                <button type="button" class="btn-theme">Apply Now</button>
+                <!-- <button type="button" herf="job-apply.php" class="btn-theme">Apply Now</button> -->
+                <a class="btn-apply-now" href="job-apply.php">Apply Now</a>
               </div>
             </div>
           </div>
@@ -121,7 +122,7 @@
               <div class="content">
                 <h4 class="title">Statement</h4>
                 <p class="desc">Finate is committed to creating the happiest company working for and is proud to provide equal opportunity to all. All the qualified applicants will receive consideration for employment without regard to race, color, ancestry, religion, sex,  sexual orientation, age, citizenship, marital status, disability, gender identity, or any other basis protected by federal, state, or local law.</p>
-                <a class="btn-apply-now" href="contact.php">Apply Now <i class="icofont-long-arrow-right"></i></a>
+                <a class="btn-apply-now" href="job-apply.php">Apply Now <i class="icofont-long-arrow-right"></i></a>
               </div>
             </div>
           </div>

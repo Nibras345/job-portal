@@ -2,7 +2,7 @@
     $hostname = "localhost";
     $dbuser = "root";
     $password = "";
-    $dbname = "login_register";
+    $dbname = "job-portal";
 
     $conn = mysqli_connect("$hostname","$dbuser","$password","$dbname");
 

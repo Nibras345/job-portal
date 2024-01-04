@@ -20,28 +20,29 @@
                   <div class="col-12">
                     <div class="job-search-wrap">
                       <div class="job-search-form">
-                        <form action="#">
+                        <form action="backend/search-job.php" method="post">
                           <div class="row row-gutter-10">
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Job title or keywords">
+                                <input type="text" class="form-control" name="job_keywords" placeholder="Job title or keywords">
                               </div>
                             </div>
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
-                                <select class="form-control">
+                                <select class="form-control" name="selected_city">
                                   <option value="1" selected>Choose City</option>
-                                  <option value="2">New York</option>
-                                  <option value="3">California</option>
-                                  <option value="4">Illinois</option>
-                                  <option value="5">Texas</option>
-                                  <option value="6">Florida</option>
+                                  <option value="2">Islamabad</option>
+                                  <option value="3">Faisalabad</option>
+                                  <option value="4">Lahore</option>
+                                  <option value="5">Karachi</option>
+                                  <option value="6">Rawalpindi</option>
                                 </select>
                               </div>
                             </div>
+
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
-                                <select class="form-control">
+                                <select class="form-control" name="selected_category">
                                   <option value="1" selected>Category</option>
                                   <option value="2">Web Designer</option>
                                   <option value="3">Web Developer</option>
@@ -53,7 +54,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
-                                <button type="button" class="btn-form-search"><i class="icofont-search-1"></i></button>
+                                <button type="button" name="ssbb" class="btn-form-search"><i class="icofont-search-1"></i></button>
                               </div>
                             </div>
                           </div>
