@@ -20,7 +20,7 @@
                   <div class="col-12">
                     <div class="job-search-wrap">
                       <div class="job-search-form">
-                        <form action="backend/search-job.php" method="post">
+                        <form action="backend/search-job.php" method="POST">
                           <div class="row row-gutter-10">
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
@@ -30,12 +30,17 @@
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
                                 <select class="form-control" name="selected_city">
-                                  <option value="1" selected>Choose City</option>
+                                  <option value="1" selected><b>Choose City</b></option>
                                   <option value="2">Islamabad</option>
                                   <option value="3">Faisalabad</option>
                                   <option value="4">Lahore</option>
                                   <option value="5">Karachi</option>
                                   <option value="6">Rawalpindi</option>
+                                  <option value="6">Multan</option>
+                                  <option value="6">Peshawar</option>
+                                  <option value="6">Quetta</option>
+                                  <option value="6">Kashmir</option>
+                                  <option value="6">Hyderabad</option>
                                 </select>
                               </div>
                             </div>
@@ -54,7 +59,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
                               <div class="form-group">
-                                <button type="button" name="ssbb" class="btn-form-search"><i class="icofont-search-1"></i></button>
+                                <button value="search" type="submit" name="ssbb" class="btn-form-search"><i class="icofont-search-1"></i></button>
                               </div>
                             </div>
                           </div>
@@ -228,25 +233,15 @@
     <!--== End Job Category Area Wrapper ==-->
 
     <!--== Start Recent Job Area Wrapper ==-->
-    <section class="recent-job-area bg-color-gray">
-      <div class="container" data-aos="fade-down">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title text-center">
-              <h3 class="title">Recent Job Circulars</h3>
-              <div class="desc">
-                <p>Many desktop publishing packages and web page editors</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section class="recent-job-area recent-job-inner-area">
+      <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/1.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w1.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Darkento Ltd.</a></h4>
@@ -270,10 +265,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/2.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w2.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Inspire Fitness Co.</a></h4>
@@ -283,7 +278,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS, HTML, Javascript, Python ,PyQt</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -297,10 +292,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/3.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w3.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Cogent Data</a></h4>
@@ -310,7 +305,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS3, HTML5, Bootstrap, C++, Java</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -324,10 +319,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/4.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w4.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Obelus Concepts</a></h4>
@@ -337,7 +332,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">UX Researcher</a></h3>
                 <h5 class="work-type">Full-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">Java, PHP, Objective-C and Swift</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -351,10 +346,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/5.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w5.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Sanguine Skincare</a></h4>
@@ -364,7 +359,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Android App Developer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">Kotlin, Java, C++</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -378,10 +373,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/6.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w6.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Flux Water Gear</a></h4>
@@ -391,7 +386,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Product Designer</a></h3>
                 <h5 class="work-type">Full-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS3, HTML5, Bootstrap, C++, UX</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -405,10 +400,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/7.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w7.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Darkento Ltd.</a></h4>
@@ -432,10 +427,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/8.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w8.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Inspire Fitness Co.</a></h4>
@@ -445,7 +440,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS, HTML, Javascript, Python ,PyQt</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -459,10 +454,10 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <!--== Start Recent Job Item ==-->
-            <div class="recent-job-item">
+            <div class="recent-job-item recent-job-style2-item">
               <div class="company-info">
                 <div class="logo">
-                  <a href="company-details.php"><img src="assets/img/companies/9.png" width="75" height="75" alt="Image-HasTech"></a>
+                  <a href="company-details.php"><img src="assets/img/companies/w9.png" width="75" height="75" alt="Image-HasTech"></a>
                 </div>
                 <div class="content">
                   <h4 class="name"><a href="company-details.php">Cogent Data</a></h4>
@@ -472,7 +467,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CCSS3, HTML5, Bootstrap, C++, Java</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -483,6 +478,30 @@
               </div>
             </div>
             <!--== End Recent Job Item ==-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="pagination-area">
+              <nav>
+                <ul class="page-numbers d-inline-flex">
+                  <li>
+                    <a class="page-number active" href="job.php">1</a>
+                  </li>
+                  <li>
+                    <a class="page-number" href="job.php">2</a>
+                  </li>
+                  <li>
+                    <a class="page-number" href="job.php">3</a>
+                  </li>
+                  <li>
+                    <a class="page-number next" href="job.php">
+                      <i class="icofont-long-arrow-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>

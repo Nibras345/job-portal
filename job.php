@@ -70,7 +70,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS, HTML, Javascript, Python ,PyQt</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -97,7 +97,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS3, HTML5, Bootstrap, C++, Java</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -124,7 +124,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">UX Researcher</a></h3>
                 <h5 class="work-type">Full-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">Java, PHP, Objective-C and Swift</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -151,7 +151,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Android App Developer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Remote</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">Kotlin, Java, C++</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -178,7 +178,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Product Designer</a></h3>
                 <h5 class="work-type">Full-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS3, HTML5, Bootstrap, C++, UX</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -232,7 +232,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Senior UI Designer</a></h3>
                 <h5 class="work-type" data-text-color="#ff7e00">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CSS, HTML, Javascript, Python ,PyQt</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">
@@ -259,7 +259,7 @@
               <div class="main-content">
                 <h3 class="title"><a href="job-details.php">Graphic Designer</a></h3>
                 <h5 class="work-type" data-text-color="#0054ff">Part-time</h5>
-                <p class="desc">CSS3, HTML5, Javascript, Bootstrap, Jquery</p>
+                <p class="desc">CCSS3, HTML5, Bootstrap, C++, Java</p>
               </div>
               <div class="recent-job-info">
                 <div class="salary">

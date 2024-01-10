@@ -61,8 +61,8 @@
                 <div class="info">
                   <h5 class="title">Address:</h5>
                   <p>
-                    BC Towr near GC Unversity<br>
-                    Faisalabad.
+                    Jinnah Colony BC Tower<br>
+                    near GC University Faisalabad.
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@
           </div>
           <div class="col-lg-6">
             <div class="map-area">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912972.6636523942!2d144.28416561146162!3d-38.05127959850456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sbd!4v1634028820404!5m2!1sen!2sbd"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8444185598983!2d73.06640527511526!3d31.418412352173245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392243450c1147b7%3A0x7a1253803d90ccb9!2sCareer%20Institute%20-%20Jinnah%20Colony%20Branch%20Faisalabad!5e0!3m2!1sen!2s!4v1704802567898!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
