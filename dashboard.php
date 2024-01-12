@@ -20,6 +20,10 @@
         <link href="new_assets/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="new_assets/assets/css/app.min.css"  id="app-style"  rel="stylesheet" type="text/css" />
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
 
@@ -32,12 +36,10 @@
     <div class="container-fluid">
         <!-- Begin page -->
         <div id="layout-wrapper">
-
             <header id="page-topbar">
                 <div class="navbar-header">
                     <div class="container-fluid">
                         <div class="float-end">
-
                             <div class="dropdown d-inline-block d-lg-none ms-2">
                                 <button type="button" class="btn header-item noti-icon waves-effect"
                                     id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
@@ -46,7 +48,6 @@
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                                     aria-labelledby="page-header-search-dropdown">
-
                                     <form class="p-3">
                                         <div class="m-0">
                                             <div class="input-group">
@@ -61,11 +62,10 @@
                                     </form>
                                 </div>
                             </div>
-
                             <div class="dropdown d-none d-sm-inline-block">
                                 <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                                    <img class="" src="assets/img/pakistan flag.png" alt="Header Language" height="16">
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end">
 
@@ -94,117 +94,18 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <div class="dropdown d-none d-lg-inline-block ms-1">
-                                <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
-                                    <i class="mdi mdi-fullscreen"></i>
-                                </button>
-                            </div>
-
-                            <div class="dropdown d-inline-block">
-                                <button type="button" class="btn header-item noti-icon waves-effect"
-                                    id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    <i class="mdi mdi-bell-outline"></i>
-                                    <span class="badge rounded-pill bg-danger ">3</span>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                    aria-labelledby="page-header-notifications-dropdown">
-                                    <div class="p-3">
-                                        <div class="row align-items-center">
-                                            <div class="col">
-                                                <h6 class="m-0"> Notifications </h6>
-                                            </div>
-                                            <div class="col-auto">
-                                                <a href="#!" class="small"> View All</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div data-simplebar style="max-height: 230px;">
-                                        <a href="" class="text-reset notification-item">
-                                            <div class="d-flex align-items-start">
-                                                <div class="avatar-xs me-3">
-                                                    <span class="avatar-title bg-primary rounded-circle font-size-16">
-                                                        <i class="bx bx-cart"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="flex-1">
-                                                    <h6 class="mt-0 mb-1">Your order is placed</h6>
-                                                    <div class="font-size-12 text-muted">
-                                                        <p class="mb-1">If several languages coalesce the grammar</p>
-                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="" class="text-reset notification-item">
-                                            <div class="d-flex align-items-start">
-                                                <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs"
-                                                    alt="user-pic">
-                                                <div class="flex-1">
-                                                    <h6 class="mt-0 mb-1">James Lemire</h6>
-                                                    <div class="font-size-12 text-muted">
-                                                        <p class="mb-1">It will seem like simplified English.</p>
-                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="" class="text-reset notification-item">
-                                            <div class="d-flex align-items-start">
-                                                <div class="avatar-xs me-3">
-                                                    <span class="avatar-title bg-success rounded-circle font-size-16">
-                                                        <i class="bx bx-badge-check"></i>
-                                                    </span>
-                                                </div>
-                                                <div class="flex-1">
-                                                    <h6 class="mt-0 mb-1">Your item is shipped</h6>
-                                                    <div class="font-size-12 text-muted">
-                                                        <p class="mb-1">If several languages coalesce the grammar</p>
-                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-
-                                        <a href="" class="text-reset notification-item">
-                                            <div class="d-flex align-items-start">
-                                                <img src="assets/images/users/avatar-4.jpg" class="me-3 rounded-circle avatar-xs"
-                                                    alt="user-pic">
-                                                <div class="flex-1">
-                                                    <h6 class="mt-0 mb-1">Salena Layfield</h6>
-                                                    <div class="font-size-12 text-muted">
-                                                        <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
-                                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="p-2 border-top d-grid">
-                                        <a class="btn btn-sm btn-link font-size-14 " href="javascript:void(0)">
-                                            <i class="mdi mdi-arrow-right-circle me-1"></i> View More..
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="dropdown d-inline-block">
                                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-2.jpg"
+                                    <img class="rounded-circle header-profile-user" src="assets/img/new.png"
                                         alt="Header Avatar">
-                                    <span class="d-none d-xl-inline-block ms-1">Patrick</span>
+                                    <span class="d-none d-xl-inline-block ms-1">Nibras</span>
                                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <!-- item-->
                                     <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i>
                                         Profile</a>
-                                    <a class="dropdown-item" href="#"><i class="bx bx-wallet font-size-16 align-middle me-1"></i> My
-                                        Wallet</a>
-                                    <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i
-                                            class="bx bx-wrench font-size-16 align-middle me-1"></i> Settings</a>
                                     <a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i>
                                         Lock screen</a>
                                     <div class="dropdown-divider"></div>
@@ -212,512 +113,143 @@
                                             class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> Logout</a>
                                 </div>
                             </div>
-
                             <div class="dropdown d-inline-block">
                                 <button  type="button" class="btn header-item noti-icon right-bar-toggle waves-effect" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                     <i class="mdi mdi-settings-outline"></i>
                                 </button>
                             </div>
-
                         </div>
                         <div>
                             <!-- LOGO -->
                             <div class="navbar-brand-box">
-                                <a href="index.html" class="logo logo-dark">
+                                <a href="index.php" class="logo logo-light">
                                     <span class="logo-sm">
-                                        <img src="assets/images/logo-sm.png" alt="" height="20">
+                                        <img src="assets/img/logo-light.png" alt="" height="70">
                                     </span>
                                     <span class="logo-lg">
-                                        <img src="assets/images/logo-dark.png" alt="" height="17">
+                                        <img src="assets/img/logo-light-theme.png" alt="" height="50">
                                     </span>
                                 </a>
-
-                                <a href="index.html" class="logo logo-light">
-                                    <span class="logo-sm">
-                                        <img src="assets/images/logo-sm.png" alt="" height="20">
-                                    </span>
-                                    <span class="logo-lg">
-                                        <img src="assets/images/logo-light.png" alt="" height="19">
-                                    </span>
-                                </a>
-                            </div>
-
-                            <button type="button" class="btn btn-sm px-3 font-size-16 header-item toggle-btn waves-effect"
-                                id="vertical-menu-btn">
-                                <i class="fa fa-fw fa-bars"></i>
-                            </button>
-
-                            <!-- App Search-->
-                            <form class="app-search d-none d-lg-inline-block">
-                                <div class="position-relative">
-                                    <input type="text" class="form-control" placeholder="Search...">
-                                    <span class="bx bx-search-alt"></span>
-                                </div>
-                            </form>
-
-                            <div class="dropdown dropdown-mega d-none d-lg-inline-block ms-2">
-                                <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
-                                    aria-haspopup="false" aria-expanded="false">
-                                    Mega Menu
-                                    <i class="mdi mdi-chevron-down"></i>
-                                </button>
-                                <div class="dropdown-menu dropdown-megamenu">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <h5 class="font-size-14 mt-0">UI Components</h5>
-                                                    <ul class="list-unstyled megamenu-list text-muted">
-                                                        <li>
-                                                            <a href="javascript:void(0);">Lightbox</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Range Slider</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Sweet Alert</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Rating</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Forms</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Tables</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Charts</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="col-md-4">
-                                                    <h5 class="font-size-14 mt-0">Applications</h5>
-                                                    <ul class="list-unstyled megamenu-list">
-                                                        <li>
-                                                            <a href="javascript:void(0);">Ecommerce</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Calendar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Email</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Projects</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Tasks</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Contacts</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="col-md-4">
-                                                    <h5 class="font-size-14 mt-0">Extra Pages</h5>
-                                                    <ul class="list-unstyled megamenu-list">
-                                                        <li>
-                                                            <a href="javascript:void(0);">Light Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Compact Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Horizontal layout</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Maintenance</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Coming Soon</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">Timeline</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);">FAQs</a>
-                                                        </li>
-
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <h5 class="font-size-14 mt-0">Components</h5>
-                                                    <div class="px-lg-2">
-                                                        <div class="row g-0">
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/github.png" alt="Github">
-                                                                    <span>GitHub</span>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
-                                                                    <span>Bitbucket</span>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/dribbble.png" alt="dribbble">
-                                                                    <span>Dribbble</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row g-0">
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/dropbox.png" alt="dropbox">
-                                                                    <span>Dropbox</span>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
-                                                                    <span>Mail Chimp</span>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a class="dropdown-icon-item" href="#">
-                                                                    <img src="assets/images/brands/slack.png" alt="slack">
-                                                                    <span>Slack</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-sm-6">
-                                                    <div>
-                                                        <div class="card text-white mb-0 overflow-hidden text-white-50"
-                                                            style="background-image: url('assets/images/megamenu-img.png');background-size: cover;">
-                                                            <div class="card-img-overlay"></div>
-                                                            <div class="card-body">
-                                                                <div class="row">
-                                                                    <div class="col-xl-6">
-                                                                        <h4 class="text-white mb-3">Sale</h4>
-
-                                                                        <h5 class="text-white-50">Up to <span
-                                                                                class="font-size-24 text-white">50 %</span> Off</h5>
-                                                                        <p>At vero eos accusamus et iusto odio.</p>
-                                                                        <div class="mb-4">
-                                                                            <a href="#" class="btn btn-success btn-sm">View more</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </header> <!-- ========== Left Sidebar Start ========== -->
+            </header> 
+
+<!-- ========== Left Sidebar Start ========== -->
+
 <div class="vertical-menu">
-
     <div class="h-100">
-
         <div class="user-wid text-center py-4">
             <div class="user-img">
-                <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md mx-auto rounded-circle">
+                <img src="assets/img/new.png" alt="" class="avatar-md mx-auto rounded-circle">
             </div>
-
             <div class="mt-3">
-
-                <a href="#" class="text-body fw-medium font-size-16">Patrick Becker</a>
+                <a href="#" class="text-body fw-medium font-size-16">Nibras Siddiqi</a>
                 <p class="text-muted mt-1 mb-0 font-size-13">UI/UX Designer</p>
-
             </div>
         </div>
-
         <!--- Sidemenu -->
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
                 <li class="menu-title">Menu</li>
-
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
-                        <i class="mdi mdi-airplay"></i><span class="badge rounded-pill bg-info float-end">2</span>
+                        <i class="mdi mdi-airplay"></i><span class="badge rounded-pill bg-info float-end"></span>
                         <span>Dashboard</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="index.html">Dashboard 1</a></li>
-                        <li><a href="index-2.html">Dashboard 2</a></li>
+                        <li><a href="dashboard.php">Dashboard</a></li>
                     </ul>
                 </li>
-
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-flip-horizontal"></i>
-                        <span>Layouts</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="true">
-                        <li><a href="javascript: void(0);" class="has-arrow">Vertical</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="layouts-compact-sidebar.html">Compact Sidebar</a></li>
-                                <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
-                                <li><a href="layouts-boxed.html">Boxed Layout</a></li>
-                                <li><a href="layouts-preloader.html">Preloader</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="javascript: void(0);" class="has-arrow">Horizontal</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                                <li><a href="layouts-hori-topbarlight.html">Topbar Light</a></li>
-                                <li><a href="layouts-hori-boxed.html">Boxed Layout</a></li>
-                                <li><a href="layouts-hori-preloader.html">Preloader</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                </li>
-
-                <li>
-                    <a href="calendar.html" class=" waves-effect">
-                        <i class="mdi mdi-calendar-text"></i>
-                        <span>Calendar</span>
+                    <a href="index.php" class=" waves-effect">
+                    <i class="fa fa-indent" aria-hidden="true"></i>
+                        <span>Home</span>
                     </a>
                 </li>
-
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-inbox-full"></i>
-                        <span>Email</span>
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <span>Find Jobs</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html">Inbox</a></li>
-                        <li><a href="email-read.html">Read Email</a></li>
+                        <li><a href="job.php">Jobs</a></li>
+                        <li><a href="job-details.php">Jobs Details</a></li>
                     </ul>
                 </li>
-
+                <li>
+                    <a href="employers-details.php" class=" waves-effect">
+                        <img src="assets/img/employee_9167122 (1).png" alt="">
+                        <span>Employers Details</span>
+                    </a>
+                </li>
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-calendar-check"></i>
-                        <span>Tasks</span>
+                        <img src="assets/img/quality-assurance_4381154.png" alt="">
+                        <span>Candidates</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="tasks-list.html">Task List</a></li>
-                        <li><a href="tasks-kanban.html">Kanban Board</a></li>
-                        <li><a href="tasks-create.html">Create Task</a></li>
+                        <li><a href="candidate.php">Candidates</a></li>
+                        <li><a href="candidate-details.php">Candidates Details</a></li>
                     </ul>
                 </li>
-
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-account-circle-outline"></i>
+                        <img src="assets/img/blog_7466122.png">
+                        <span>Blog</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="blog-grid.php">Blog Grid</a></li>
+                        <li><a href="#">Blog Left Sidebar</a></li>
+                        <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+                        <li><a href="blog-details.php">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
                         <span>Pages</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="pages-login.html">Login</a></li>
-                        <li><a href="pages-register.html">Register</a></li>
-                        <li><a href="pages-recoverpw.html">Recover Password</a></li>
-                        <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-                        <li><a href="pages-starter.html">Starter Page</a></li>
-                        <li><a href="pages-invoice.html">Invoice</a></li>
-                        <li><a href="pages-profile.html">Profile</a></li>
-                        <li><a href="pages-maintenance.html">Maintenance</a></li>
-                        <li><a href="pages-comingsoon.html">Coming Soon</a></li>
-                        <li><a href="pages-timeline.html">Timeline</a></li>
-                        <li><a href="pages-faqs.html">FAQs</a></li>
-                        <li><a href="pages-pricing.html">Pricing</a></li>
-                        <li><a href="pages-404.html">Error 404</a></li>
-                        <li><a href="pages-500.html">Error 500</a></li>
+                        <li><a href="about-us.php">about Us</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="registration.php">Registration</a></li>
+                        <li><a href="page-not-found.php">Page Not Found</a></li>
                     </ul>
                 </li>
-
-                <li class="menu-title">Components</li>
-
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-checkbox-multiple-blank-outline"></i>
-                        <span>UI Elements</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ui-alerts.html">Alerts</a></li>
-                        <li><a href="ui-buttons.html">Buttons</a></li>
-                        <li><a href="ui-cards.html">Cards</a></li>
-                        <li><a href="ui-carousel.html">Carousel</a></li>
-                        <li><a href="ui-dropdowns.html">Dropdowns</a></li>
-                        <li><a href="ui-grid.html">Grid</a></li>
-                        <li><a href="ui-images.html">Images</a></li>
-                        <li><a href="ui-lightbox.html">Lightbox</a></li>
-                        <li><a href="ui-modals.html">Modals</a></li>
-                        <li><a href="ui-rangeslider.html">Range Slider</a></li>
-                        <li><a href="ui-session-timeout.html">Session Timeout</a></li>
-                        <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                        <li><a href="ui-sweet-alert.html">Sweet-Alert</a></li>
-                        <li><a href="ui-tabs-accordions.html">Tabs & Accordions</a></li>
-                        <li><a href="ui-typography.html">Typography</a></li>
-                        <li><a href="ui-video.html">Video</a></li>
-                        <li><a href="ui-general.html">General</a></li>
-                        <li><a href="ui-colors.html">Colors</a></li>
-                        <li><a href="ui-rating.html">Rating</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="waves-effect">
-                        <i class="mdi mdi-newspaper"></i>
-                        <span class="badge rounded-pill bg-danger float-end">6</span>
-                        <span>Forms</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="form-elements.html">Form Elements</a></li>
-                        <li><a href="form-validation.html">Form Validation</a></li>
-                        <li><a href="form-advanced.html">Form Advanced</a></li>
-                        <li><a href="form-editors.html">Form Editors</a></li>
-                        <li><a href="form-uploads.html">Form File Upload</a></li>
-                        <li><a href="form-xeditable.html">Form Xeditable</a></li>
-                        <li><a href="form-repeater.html">Form Repeater</a></li>
-                        <li><a href="form-wizard.html">Form Wizard</a></li>
-                        <li><a href="form-mask.html">Form Mask</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-clipboard-list-outline"></i>
-                        <span>Tables</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="tables-basic.html">Basic Tables</a></li>
-                        <li><a href="tables-datatable.html">Data Tables</a></li>
-                        <li><a href="tables-responsive.html">Responsive Table</a></li>
-                        <li><a href="tables-editable.html">Editable Table</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-chart-donut"></i>
-                        <span>Charts</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="charts-apex.html">Apex charts</a></li>
-                        <li><a href="charts-chartjs.html">Chartjs Chart</a></li>
-                        <li><a href="charts-flot.html">Flot Chart</a></li>
-                        <li><a href="charts-knob.html">Jquery Knob Chart</a></li>
-                        <li><a href="charts-sparkline.html">Sparkline Chart</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-emoticon-happy-outline"></i>
-                        <span>Icons</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="icons-boxicons.html">Boxicons</a></li>
-                        <li><a href="icons-materialdesign.html">Material Design</a></li>
-                        <li><a href="icons-dripicons.html">Dripicons</a></li>
-                        <li><a href="icons-fontawesome.html">Font awesome</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-map-marker-outline"></i>
-                        <span>Maps</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="maps-google.html">Google Maps</a></li>
-                        <li><a href="maps-vector.html">Vector Maps</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="mdi mdi-file-tree"></i>
-                        <span>Multi Level</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="true">
-                        <li><a href="javascript: void(0);">Level 1.1</a></li>
-                        <li><a href="javascript: void(0);" class="has-arrow">Level 1.2</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="javascript: void(0);">Level 2.1</a></li>
-                                <li><a href="javascript: void(0);">Level 2.2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
+                    <a href="contact.php" class=" waves-effect">
+                        <img src="assets/img/communicate_2343723.png" alt="">
+                        <span>Contact</span>
+                </a>
             </ul>
         </div>
-        <!-- Sidebar -->
     </div>
 </div>
 <!-- Left Sidebar End -->
-
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="main-content">
-
                 <div class="page-content">
-
                     <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
                                 <h4 class="page-title mb-0 font-size-18">Dashboard</h4>
-
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item active">Welcome to Qovex Dashboard</li>
+                                        <li class="breadcrumb-item active">Welcome to Finate Dashboard</li>
                                     </ol>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <!-- end page title -->
-
                     <div class="row">
                         <div class="col-xl-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <div class="avatar-sm font-size-20 me-3">
-                                            <span class="avatar-title bg-soft-primary text-primary rounded">
-                                                <i class="mdi mdi-tag-plus-outline"></i>
-                                            </span>
-                                        </div>
-                                        <div class="flex-1">
-                                            <div class="font-size-16 mt-2">New Orders</div>
-                                        </div>
-                                    </div>
-                                    <h4 class="mt-4">1,368</h4>
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <p class="mb-0"><span class="text-success me-2"> 0.28% <i
-                                                        class="mdi mdi-arrow-up"></i> </span></p>
-                                        </div>
-                                        <div class="col-5 align-self-center">
-                                            <div class="progress progress-sm">
-                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 62%"
-                                                    aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex align-items-start">
@@ -748,25 +280,6 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-4">Sales Report</h4>
-
-                                    <div id="line-chart" class="apex-charts"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-4">Revenue</h4>
-
-                                    <div id="column-chart" class="apex-charts"></div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <!-- end row -->
 
