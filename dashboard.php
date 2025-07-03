@@ -1,37 +1,37 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <title>Dashboard | Qovex - Admin & Dashboard Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="Themesbrand" name="author" />
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard | Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-        <!-- jquery.vectormap css -->
-        <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"
-            type="text/css" />
+    <!-- jquery.vectormap css -->
+    <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"
+        type="text/css" />
 
-        <!-- Bootstrap Css -->
-        <link href="new_assets/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="new_assets/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="new_assets/assets/css/app.min.css"  id="app-style"  rel="stylesheet" type="text/css" />
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
-            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap Css -->
+    <link href="new_assets/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="new_assets/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="new_assets/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    </head>
+</head>
 
-    <body data-layout="detached" data-topbar="colored">
+<body data-layout="detached" data-topbar="colored">
 
 
 
-        <!-- <body data-layout="horizontal" data-topbar="dark"> -->
+    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
     <div class="container-fluid">
         <!-- Begin page -->
@@ -114,7 +114,7 @@
                                 </div>
                             </div>
                             <div class="dropdown d-inline-block">
-                                <button  type="button" class="btn header-item noti-icon right-bar-toggle waves-effect" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                     <i class="mdi mdi-settings-outline"></i>
                                 </button>
                             </div>
@@ -122,6 +122,14 @@
                         <div>
                             <!-- LOGO -->
                             <div class="navbar-brand-box">
+                                <a href="index.php" class="logo logo-dark">
+                                    <span class="logo-sm">
+                                        <img src="assets/img/logo-light.png" alt="" height="60">
+                                    </span>
+                                    <span class="logo-lg">
+                                        <img src="assets/img/logo-light-theme.png" alt="" height="45">
+                                    </span>
+                                </a>
                                 <a href="index.php" class="logo logo-light">
                                     <span class="logo-sm">
                                         <img src="assets/img/logo-light.png" alt="" height="70">
@@ -134,101 +142,102 @@
                         </div>
                     </div>
                 </div>
-            </header> 
+            </header>
 
-<!-- ========== Left Sidebar Start ========== -->
+            <!-- ========== Left Sidebar Start ========== -->
 
-<div class="vertical-menu">
-    <div class="h-100">
-        <div class="user-wid text-center py-4">
-            <div class="user-img">
-                <img src="assets/img/new.png" alt="" class="avatar-md mx-auto rounded-circle">
+            <div class="vertical-menu">
+                <div class="h-100">
+                    <div class="user-wid text-center py-4">
+                        <div class="user-img">
+                            <img src="assets/img/new.png" alt="" class="avatar-md mx-auto rounded-circle">
+                        </div>
+                        <div class="mt-3">
+                            <a href="#" class="text-body fw-medium font-size-16">Nibras Siddiqi</a>
+                            <p class="text-muted mt-1 mb-0 font-size-13"></p>
+                        </div>
+                    </div>
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+                        <!-- Left Menu Start -->
+                        <ul class="metismenu list-unstyled" id="side-menu">
+                            <li class="menu-title">Menu</li>
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect">
+                                    <i class="mdi mdi-airplay"></i><span class="badge rounded-pill bg-info float-end"></span>
+                                    <span>Dashboard</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="dashboard.php">Dashboard</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.php" class=" waves-effect">
+                                    <i class="fa fa-indent" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                    <span>Find Jobs</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="job.php">Jobs</a></li>
+                                    <li><a href="job-details.php">Jobs Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="employers-details.php" class=" waves-effect">
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                    <span>Employers Details</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                    <span>Candidates</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="candidate.php">Candidates</a></li>
+                                    <li><a href="candidate-details.php">Candidates Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="fa fa-rss-square" aria-hidden="true"></i>
+                                    <span>Blog</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="blog-grid.php">Blog Grid</a></li>
+                                    <li><a href="#">Blog Left Sidebar</a></li>
+                                    <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span>Pages</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="about-us.php">about Us</a></li>
+                                    <li><a href="login.php">Login</a></li>
+                                    <li><a href="registration.php">Registration</a></li>
+                                    <li><a href="page-not-found.php">Page Not Found</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.php" class=" waves-effect">
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="mt-3">
-                <a href="#" class="text-body fw-medium font-size-16">Nibras Siddiqi</a>
-                <p class="text-muted mt-1 mb-0 font-size-13">UI/UX Designer</p>
-            </div>
-        </div>
-        <!--- Sidemenu -->
-        <div id="sidebar-menu">
-            <!-- Left Menu Start -->
-            <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title">Menu</li>
-                <li>
-                    <a href="javascript: void(0);" class="waves-effect">
-                        <i class="mdi mdi-airplay"></i><span class="badge rounded-pill bg-info float-end"></span>
-                        <span>Dashboard</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="dashboard.php">Dashboard</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="index.php" class=" waves-effect">
-                    <i class="fa fa-indent" aria-hidden="true"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                        <span>Find Jobs</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="job.php">Jobs</a></li>
-                        <li><a href="job-details.php">Jobs Details</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="employers-details.php" class=" waves-effect">
-                        <img src="assets/img/employee_9167122 (1).png" alt="">
-                        <span>Employers Details</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <img src="assets/img/quality-assurance_4381154.png" alt="">
-                        <span>Candidates</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="candidate.php">Candidates</a></li>
-                        <li><a href="candidate-details.php">Candidates Details</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <img src="assets/img/blog_7466122.png">
-                        <span>Blog</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="blog-grid.php">Blog Grid</a></li>
-                        <li><a href="#">Blog Left Sidebar</a></li>
-                        <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
-                        <li><a href="blog-details.php">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                        <span>Pages</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="about-us.php">about Us</a></li>
-                        <li><a href="login.php">Login</a></li>
-                        <li><a href="registration.php">Registration</a></li>
-                        <li><a href="page-not-found.php">Page Not Found</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="contact.php" class=" waves-effect">
-                        <img src="assets/img/communicate_2343723.png" alt="">
-                        <span>Contact</span>
-                </a>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- Left Sidebar End -->
+            <!-- Left Sidebar End -->
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
@@ -259,8 +268,8 @@
                                             </span>
                                         </div>
                                         <div class="flex-1">
-                                            <div class="font-size-16 mt-2">New Users</div>
-
+                                            <div class="font-size-16 mt-2">New Users
+                                            </div>
                                         </div>
                                     </div>
                                     <h4 class="mt-4">2,456</h4>
@@ -343,9 +352,9 @@
                                 <div class="card-body">
                                     <div class="text-white-50">
                                         <h5 class="text-white">2400 + New Users</h5>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
+                                        <p>But truly we both accuse them and consider them most worthy of just hatred.</p>
                                         <div>
-                                            <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                            <a href="candidate.php  " class="btn btn-outline-success btn-sm">View more</a>
                                         </div>
                                     </div>
                                     <div class="row justify-content-end">
@@ -423,7 +432,8 @@
                                                         <div class="progress progress-sm mt-3">
                                                             <div class="progress-bar bg-success" role="progressbar"
                                                                 style="width: 78%" aria-valuenow="78" aria-valuemin="0"
-                                                                aria-valuemax="100"></div>
+                                                                aria-valuemax="100">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -439,7 +449,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title mb-4">Reviews</h4>
                                     <div class="mb-4">
-                                        <h5><span class="text-primary">500</span>+ Satisfied clients</h5>
+                                        <h5><span class="text-primary">5000</span>+ Satisfied clients</h5>
                                     </div>
                                     <div class="mb-3">
                                         <i class="fas fa-quote-left h4 text-primary"></i>
@@ -461,7 +471,7 @@
                                                         </div>
                                                         <div class="flex-1">
                                                             <h5 class="font-size-16 mb-1">Jessie Mitchell</h5>
-                                                            <p class="mb-2">CEO of ABC Company</p>
+                                                            <p class="mb-2">CEO of Finate Company</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -728,11 +738,13 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Qovex.
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script> © Finate.
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
-                                    Design & Develop by Themesbrand
+                                    Design & Develop by Nibras.
                                 </div>
                             </div>
                         </div>
@@ -754,35 +766,35 @@
             <div class="right-bar">
                 <div data-simplebar class="h-100">
                     <div class="rightbar-title px-3 py-4">
-                        <a href="javascript:void(0);" class="right-bar-toggle float-end" data-bs-dismiss="offcanvas" aria-label="Close" >
+                        <a href="javascript:void(0);" class="right-bar-toggle float-end" data-bs-dismiss="offcanvas" aria-label="Close">
                             <i class="mdi mdi-close noti-icon"></i>
                         </a>
                         <h5 class="m-0">Settings</h5>
                     </div>
-        
+
                     <!-- Settings -->
                     <hr class="mt-0" />
                     <h6 class="text-center mb-0">Choose Layouts</h6>
-        
+
                     <div class="p-4">
                         <div class="mb-2">
                             <img src="assets/images/layouts/layout-1.jpg" class="img-fluid img-thumbnail" alt="">
                         </div>
-        
+
                         <div class="form-check form-switch mb-3">
                             <input type="checkbox" class="form-check-input theme-choice" id="light-mode-switch" checked />
                             <label class="form-check-label" for="light-mode-switch">Light Mode</label>
                         </div>
-        
+
                         <div class="mb-2">
                             <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="">
                         </div>
-        
+
                         <div class="form-check form-switch mb-3">
-                            <input type="checkbox" class="form-check-input theme-choice" id="dark-mode-switch"  />
+                            <input type="checkbox" class="form-check-input theme-choice" id="dark-mode-switch" />
                             <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
                         </div>
-        
+
                         <div class="mb-2">
                             <img src="assets/images/layouts/layout-3.jpg" class="img-fluid img-thumbnail" alt="">
                         </div>
@@ -790,14 +802,14 @@
                             <input type="checkbox" class="form-check-input theme-choice" id="rtl-mode-switch" data-appStyle="assets/css/app-rtl.min.css" />
                             <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
                         </div>
-        
+
                     </div>
-        
+
                 </div>
                 <!-- end slimscroll-menu-->
             </div>
         </div>
-   
+
     </div>
 
 
@@ -826,6 +838,6 @@
 
     <script src="assets/js/app.js"></script>
 
-    </body>
+</body>
 
 </html>
